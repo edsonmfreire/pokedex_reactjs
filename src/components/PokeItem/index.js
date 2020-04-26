@@ -1,10 +1,14 @@
 import React from 'react';
 import './style.css';
 
-const PokeItem = () => {
+const PokeItem = props => {
+  const { poke } = props;
+
   return (
     <div className="PokeItem">
-      Teste
+      <div className="name">
+        {poke.name}
+      </div>
     </div>
   )
 };
