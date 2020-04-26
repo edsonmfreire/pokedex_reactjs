@@ -3,68 +3,11 @@ import './style.css';
 
 import PokeItem from '../PokeItem';
 
-const pokemons = [
-  {
-    name: 'Bulbasaur',
-  },
-  {
-    name: 'Ivysaur',
-  },
-  {
-    name: 'Venusaur',
-  },
-  {
-    name: 'Charmander',
-  },
-  {
-    name: 'Charmeleon',
-  },
-  {
-    name: 'Charizard',
-  },
-  {
-    name: 'Bulbasaur',
-  },
-  {
-    name: 'Ivysaur',
-  },
-  {
-    name: 'Venusaur',
-  },
-  {
-    name: 'Charmander',
-  },
-  {
-    name: 'Charmeleon',
-  },
-  {
-    name: 'Charizard',
-  },
-  {
-    name: 'Bulbasaur',
-  },
-  {
-    name: 'Ivysaur',
-  },
-  {
-    name: 'Venusaur',
-  },
-  {
-    name: 'Charmander',
-  },
-  {
-    name: 'Charmeleon',
-  },
-  {
-    name: 'Charizard',
-  }
-]
-
-const PokeList = () => {
+const PokeList = props => {
   return (
     <div className="PokeList">
-      {pokemons.map(pokemon => {
-        return (<PokeItem poke={pokemon} />)
+      {props.pokemons.map((pokemon, index) => {
+        return (<PokeItem key={index} poke={pokemon} />)
       })}
     </div>
   )
