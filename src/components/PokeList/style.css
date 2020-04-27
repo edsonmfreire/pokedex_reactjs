@@ -10,12 +10,3 @@
 
     padding: 10px;
 }
-
-.PokeList > div {
-    background-color: #f2f2f2;
-    width: 200px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
