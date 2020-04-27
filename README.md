@@ -4,6 +4,12 @@ Feito com [Create React App](https://github.com/facebook/create-react-app), util
 
 ## Instruções de instalação
 
+### `git clone git@github.com:edsonmfreire/pokedex_reactjs.git`
+Clona o projeto na pasta atual
+ 
+### `cd pokedex_reactjs`
+Entra na pasta
+
 ### `yarn`
 
 Comando responsável para instalar os pacotes necessários para a execução do projeto.
@@ -15,6 +21,7 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no Browse
 
 ### `yarn build`
 
+(Opcional)
 Realiza um build para produção, na pasta `build`.<br />
 E deixa pronto para fazer deploy.
 
